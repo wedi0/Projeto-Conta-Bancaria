@@ -68,7 +68,7 @@ public abstract class Conta implements IConta  {
     public void deposito (double valor, Conta conta) {
         //Aqui faz-se o tratamento de informação, se o valor do saque for negativo lança-se uma exception.
         try {
-            if ( valor < 0){
+            if ( valor < 0 || valor > saldo){
                 IllegalArgumentException e = new IllegalArgumentException();
                 throw e;
             }

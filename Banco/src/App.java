@@ -13,6 +13,7 @@ public class App {
         banco.setConta(c3);
 
         c3.deposito(1000);
+        c3.saque(400); 
         c3.deposito(300, c1);
 
 
