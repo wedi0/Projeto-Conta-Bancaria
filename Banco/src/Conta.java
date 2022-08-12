@@ -3,11 +3,11 @@ import java.util.List;
 
 public abstract class Conta implements IConta  {
     
-    //Aqui é definido como constante o tipo de conta:
+    //Aqui é definido como constante o tipo da conta:
     private static final String POUPANCA = "019"; 
     private static final String CORRENTE = "013";
 
-    //Aqui será definido a sequencia para se gerar o numero da conta:
+    //Aqui será definido a sequência para se gerar o numero da conta:
     private static int SEQUENCIA = 1;
 
     //Aqui é os atritubos pertecentes a cada conta:
@@ -66,7 +66,7 @@ public abstract class Conta implements IConta  {
     //Deposito para contas de terceiros;
     @Override
     public void deposito (double valor, Conta conta) {
-        //Aqui faz-se o tratamento de informação, se o valor do saque for negativo lança-se uma exception.
+        //Aqui faz-se o tratamento de informação, se o valor do deposito for negativo lança-se uma exception.
         try {
             if ( valor < 0 || valor > saldo){
                 IllegalArgumentException e = new IllegalArgumentException();
@@ -75,7 +75,7 @@ public abstract class Conta implements IConta  {
             else {
                 this.saldo -= valor;
                 this.extrato.add(saldo); //Adiciona o valor alterado do saldo para o extrato;
-                conta.saque(valor);
+                conta.deposito(valor);
                 conta.extrato.add(saldo); //Adiciona o valor alterado do saldo para o extrato;
             }
         } catch (Exception e) {
