@@ -104,12 +104,12 @@ public abstract class Conta implements IConta  {
 
     //Exibe dados da conta;
     @Override
-    public void consultarConta (Conta conta) {
+    public void consultarConta () {
         System.out.println("--- EXIBIR CONTA ---\n Nome:" + cliente.getNome() +"\n Agencia: " + agencia + "\n Numero: " + numero + "\n Saldo: " + saldo);
     }
     //Exibe o extratos dos depositos ou saques feitos;
     @Override
-    public void consultarExtrato(Conta conta) {
+    public void consultarExtrato() {
         System.out.println (" --- EXIBIR EXTRATO --- \n" + extrato);
        
     }
