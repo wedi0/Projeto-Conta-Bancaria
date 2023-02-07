@@ -29,7 +29,7 @@
   ````
  *Nessa parte criamos uma conta apenas passando o tipo da agência( 1 poupança e 2 corrente) e o nome como parametro*
  
- A partir disso cria-se uma conta do zero sem o usuário saber o que no processo. Neste códgio a criação do usuário está sendo feito pela classe Conta, ocultando os seguintes códigos: 
+ A partir disso cria-se uma conta do zero sem o usuário saber o que acontece no processo. Neste códgio a criação do usuário está sendo feito pela classe Conta, ocultando os seguintes códigos: 
  ````java
  //Construtor:
     public Conta( int agencia, String nome) {
