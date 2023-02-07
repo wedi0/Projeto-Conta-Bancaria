@@ -6,8 +6,8 @@ public interface IConta {
 
     public void deposito (double valor);
 
-    public void consultarConta(Conta conta);
+    public void consultarConta();
 
-    public void consultarExtrato(Conta conta);
+    public void consultarExtrato();
 
 }
