@@ -16,9 +16,11 @@
   * Herança
   * Polimorfismo
    
+   
+  -----------------
 ### Abstração
 
-  **Definição:** *Abstrair algo significa esconder os detalhes da implementação dentro de algo – às vezes um protótipo, às vezes em uma função. Portanto, quando você chama a função, não precisa entender exatamente o que ela está fazendo*
+  *Abstrair algo significa esconder os detalhes da implementação dentro de algo – às vezes um protótipo, às vezes em uma função. Portanto, quando você chama a função, não precisa entender exatamente o que ela está fazendo*
   
   No nosso projeto isso pode ser visto, por exemplo, na hora de criar a conta: 
   
@@ -58,9 +60,10 @@
     // continua...
  
    ````
+   -----------
    ### Encapsulamento 
  
-   **Definição:** *É a técnica utilizada para esconder uma ideia, ou seja, não expôr detalhes internos para o usuário, tornando partes do sistema mais independentes possível. Por exemplo, quando um controle remoto estraga apenas é trocado ou consertado o controle e não a televisão inteira. Nesse exemplo do controle remoto, acontece a forma clássica de encapsulamento, pois quando o usuário muda de canal não se sabe que programação acontece entre a televisão e o controle para efetuar tal ação.*
+   *É a técnica utilizada para esconder uma ideia, ou seja, não expôr detalhes internos para o usuário, tornando partes do sistema mais independentes possível. Por exemplo, quando um controle remoto estraga apenas é trocado ou consertado o controle e não a televisão inteira. Nesse exemplo do controle remoto, acontece a forma clássica de encapsulamento, pois quando o usuário muda de canal não se sabe que programação acontece entre a televisão e o controle para efetuar tal ação.*
    
    Em um processo de encapsulamento os atributos das classes são do tipo *private*. Para acessar esses tipos de modificadores, é necessário criar métodos *setters* e *getters*.
    
@@ -87,10 +90,10 @@
       }
 }
    ````
-   
+   -----------------
   ### Herança
   
-  **Definição:** *A herança permite que um objeto adquira as propriedades e métodos de outro objeto.* 
+  *A herança permite que um objeto adquira as propriedades e métodos de outro objeto.* 
   
   Para efetuar uma herança de uma classe é utilizada a palavra reservada chamada extends. Segue abaixo o exemplo de como isso foi aplicado no código:
   
@@ -103,17 +106,17 @@
     } 
 }
 ```` 
+----------------
   
   ### Polimorfismo
   
-  **Definição:** *Polimorfismo significa "muitas formas", é o termo definido em linguagens orientadas a objeto, como por exemplo Java, C# e C++, que permite ao desenvolvedor usar o mesmo elemento de formas diferentes. Polimorfismo denota uma situação na qual um objeto pode se comportar de maneiras diferentes ao receber uma mensagem. No Polimorfismo temos dois tipos:
+   *Polimorfismo significa "muitas formas", é o termo definido em linguagens orientadas a objeto, como por exemplo Java, C# e C++, que permite ao desenvolvedor usar o mesmo elemento de formas diferentes. Polimorfismo denota uma situação na qual um objeto pode se comportar de maneiras diferentes ao receber uma mensagem. No Polimorfismo temos dois tipos:*
 
-Polimorfismo Estático ou Sobrecarga
-Polimorfismo Dinâmico ou Sobreposição
+*Polimorfismo Estático ou Sobrecarga*
+*Polimorfismo Dinâmico ou Sobreposição*
 
-O Polimorfismo Estático se dá quando temos a mesma operação implementada várias vezes na mesma classe.
-O Polimorfismo Dinâmico acontece na herança, quando a subclasse sobrepõe o método original.
-*
+*O Polimorfismo Estático se dá quando temos a mesma operação implementada várias vezes na mesma classe.*
+*O Polimorfismo Dinâmico acontece na herança, quando a subclasse sobrepõe o método original.*
 
 No código, toda "marca" de banco podem ter as mesmas funções só que agindo de maneiras diferentes:
 
