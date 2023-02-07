@@ -24,7 +24,7 @@ public class Banco implements IBanco{
     @Override
     public void consultarExtrato(Conta conta) {
         
-        conta.consultarExtrato(conta);
+        conta.consultarExtrato();
         
     }
 
